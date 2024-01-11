@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b0a13201c9bd04b9495e6aa073155a, type: 3}
+  m_Name: SO_Skills
+  m_EditorClassIdentifier: 
+  allSkills:
+  - name: Dash
+    sprite: {fileID: 21300000, guid: 1ff84ad2f13c54f4683f7034da788a89, type: 3}
+    cost: 3
+    isBought: 0
+    isEquipped: 0
+  - name: DoubleJump
+    sprite: {fileID: 21300000, guid: 0b739b86752b2d5468f70d53075ef5ea, type: 3}
+    cost: 10
+    isBought: 0
+    isEquipped: 0
+  - name: HookCat
+    sprite: {fileID: 21300000, guid: 40b0e16edb8d513408002095712589eb, type: 3}
+    cost: 20
+    isBought: 0
+    isEquipped: 0
